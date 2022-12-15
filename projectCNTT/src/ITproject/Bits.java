@@ -4,7 +4,7 @@ import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.Collections;
 
-public class Bits extends DES {
+public class Bits extends DES{
 	
     public static int[] toBits(int dec, int minLen) {
         ArrayList<Integer> resultList = new ArrayList<>();
