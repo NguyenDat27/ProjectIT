@@ -2,7 +2,7 @@ package ITproject;
 
 public class DES {
 	
-	private BLOCK_MODE mode;
+    private BLOCK_MODE mode;
 
     public enum BLOCK_MODE {
         EBC, CBC
@@ -74,6 +74,7 @@ public class DES {
     }
 
     private int[] F(int[] subkey, int[] part) {
+	    
         int[] retVal;
 
         retVal = Expansion.expand(part);
